@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+}
+
+.App {
+  position: relative;
+}
+
+.sphere-wrapper,
+.jupiter-wrapper,
+.butterfly-wrapper,
+.font-wrapper {
+  background: #fff;
+  margin: 1rem auto;
+  width: 1000px;
+  height: 600px;
+}
+
+.flyingBox-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  margin: 1rem auto;
+  width: 1000px;
+  height: 600px;
+}
